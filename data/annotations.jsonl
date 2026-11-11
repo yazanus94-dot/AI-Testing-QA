@@ -1,0 +1,192 @@
+{"item_id": "item_001", "text": "Not sure yet about the keyboard.", "annotator": "ann_1", "label": "neutral", "gold_label": "neutral"}
+{"item_id": "item_001", "text": "Not sure yet about the keyboard.", "annotator": "ann_2", "label": "neutral", "gold_label": "neutral"}
+{"item_id": "item_001", "text": "Not sure yet about the keyboard.", "annotator": "ann_3", "label": "neutral", "gold_label": "neutral"}
+{"item_id": "item_002", "text": "Very disappointed with this backpack, do not buy.", "annotator": "ann_1", "label": "negative", "gold_label": "negative"}
+{"item_id": "item_002", "text": "Very disappointed with this backpack, do not buy.", "annotator": "ann_2", "label": "negative", "gold_label": "negative"}
+{"item_id": "item_002", "text": "Very disappointed with this backpack, do not buy.", "annotator": "ann_3", "label": "negative", "gold_label": "negative"}
+{"item_id": "item_003", "text": "The phone stopped working and support ignored me.", "annotator": "ann_1", "label": "negative", "gold_label": "negative"}
+{"item_id": "item_003", "text": "The phone stopped working and support ignored me.", "annotator": "ann_2", "label": "negative", "gold_label": "negative"}
+{"item_id": "item_003", "text": "The phone stopped working and support ignored me.", "annotator": "ann_3", "label": "negative", "gold_label": "negative"}
+{"item_id": "item_004", "text": "Absolutely happy with the camera. Highly recommended!", "annotator": "ann_1", "label": "positive", "gold_label": "positive"}
+{"item_id": "item_004", "text": "Absolutely happy with the camera. Highly recommended!", "annotator": "ann_2", "label": "negative", "gold_label": "positive"}
+{"item_id": "item_004", "text": "Absolutely happy with the camera. Highly recommended!", "annotator": "ann_3", "label": "positive", "gold_label": "positive"}
+{"item_id": "item_005", "text": "Not sure yet about the blender.", "annotator": "ann_1", "label": "neutral", "gold_label": "neutral"}
+{"item_id": "item_005", "text": "Not sure yet about the blender.", "annotator": "ann_2", "label": "negative", "gold_label": "neutral"}
+{"item_id": "item_005", "text": "Not sure yet about the blender.", "annotator": "ann_3", "label": "neutral", "gold_label": "neutral"}
+{"item_id": "item_006", "text": "Great value, the backpack is excellent.", "annotator": "ann_1", "label": "positive", "gold_label": "positive"}
+{"item_id": "item_006", "text": "Great value, the backpack is excellent.", "annotator": "ann_2", "label": "positive", "gold_label": "positive"}
+{"item_id": "item_006", "text": "Great value, the backpack is excellent.", "annotator": "ann_3", "label": "positive", "gold_label": "positive"}
+{"item_id": "item_007", "text": "Not sure yet about the headphones.", "annotator": "ann_1", "label": "neutral", "gold_label": "neutral"}
+{"item_id": "item_007", "text": "Not sure yet about the headphones.", "annotator": "ann_2", "label": "negative", "gold_label": "neutral"}
+{"item_id": "item_007", "text": "Not sure yet about the headphones.", "annotator": "ann_3", "label": "neutral", "gold_label": "neutral"}
+{"item_id": "item_008", "text": "The blender comes with a manual and a charger.", "annotator": "ann_1", "label": "neutral", "gold_label": "neutral"}
+{"item_id": "item_008", "text": "The blender comes with a manual and a charger.", "annotator": "ann_2", "label": "neutral", "gold_label": "neutral"}
+{"item_id": "item_008", "text": "The blender comes with a manual and a charger.", "annotator": "ann_3", "label": "neutral", "gold_label": "neutral"}
+{"item_id": "item_009", "text": "Awful quality, the router feels cheap.", "annotator": "ann_1", "label": "negative", "gold_label": "negative"}
+{"item_id": "item_009", "text": "Awful quality, the router feels cheap.", "annotator": "ann_2", "label": "negative", "gold_label": "negative"}
+{"item_id": "item_009", "text": "Awful quality, the router feels cheap.", "annotator": "ann_3", "label": "negative", "gold_label": "negative"}
+{"item_id": "item_010", "text": "The backpack arrived on Tuesday.", "annotator": "ann_1", "label": "neutral", "gold_label": "neutral"}
+{"item_id": "item_010", "text": "The backpack arrived on Tuesday.", "annotator": "ann_2", "label": "neutral", "gold_label": "neutral"}
+{"item_id": "item_010", "text": "The backpack arrived on Tuesday.", "annotator": "ann_3", "label": "neutral", "gold_label": "neutral"}
+{"item_id": "item_011", "text": "Awful quality, the laptop feels cheap.", "annotator": "ann_1", "label": "negative", "gold_label": "negative"}
+{"item_id": "item_011", "text": "Awful quality, the laptop feels cheap.", "annotator": "ann_2", "label": "negative", "gold_label": "negative"}
+{"item_id": "item_011", "text": "Awful quality, the laptop feels cheap.", "annotator": "ann_3", "label": "negative", "gold_label": "negative"}
+{"item_id": "item_012", "text": "The phone comes with a manual and a charger.", "annotator": "ann_1", "label": "neutral", "gold_label": "neutral"}
+{"item_id": "item_012", "text": "The phone comes with a manual and a charger.", "annotator": "ann_2", "label": "neutral", "gold_label": "neutral"}
+{"item_id": "item_012", "text": "The phone comes with a manual and a charger.", "annotator": "ann_3", "label": "negative", "gold_label": "neutral"}
+{"item_id": "item_013", "text": "Great value, the laptop is excellent.", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_013", "text": "Great value, the laptop is excellent.", "annotator": "ann_2", "label": "positive"}
+{"item_id": "item_013", "text": "Great value, the laptop is excellent.", "annotator": "ann_3", "label": "positive"}
+{"item_id": "item_014", "text": "The keyboard broke after two days. Terrible.", "annotator": "ann_1", "label": "negative"}
+{"item_id": "item_014", "text": "The keyboard broke after two days. Terrible.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_015", "text": "Great value, the phone is excellent.", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_015", "text": "Great value, the phone is excellent.", "annotator": "ann_2", "label": "positive"}
+{"item_id": "item_015", "text": "Great value, the phone is excellent.", "annotator": "ann_3", "label": "positive"}
+{"item_id": "item_016", "text": "Awful quality, the keyboard feels cheap.", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_016", "text": "Awful quality, the keyboard feels cheap.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_016", "text": "Awful quality, the keyboard feels cheap.", "annotator": "ann_3", "label": "negative"}
+{"item_id": "item_017", "text": "I love this phone, it works perfectly.", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_017", "text": "I love this phone, it works perfectly.", "annotator": "ann_2", "label": "positive"}
+{"item_id": "item_017", "text": "I love this phone, it works perfectly.", "annotator": "ann_3", "label": "negative"}
+{"item_id": "item_018", "text": "The backpack stopped working and support ignored me.", "annotator": "ann_1", "label": "unsure"}
+{"item_id": "item_018", "text": "The backpack stopped working and support ignored me.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_018", "text": "The backpack stopped working and support ignored me.", "annotator": "ann_3", "label": "negative"}
+{"item_id": "item_019", "text": "The router exceeded my expectations.", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_019", "text": "The router exceeded my expectations.", "annotator": "ann_2", "label": "positive"}
+{"item_id": "item_019", "text": "The router exceeded my expectations.", "annotator": "ann_3", "label": "positive"}
+{"item_id": "item_020", "text": "The keyboard arrived on Tuesday.", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_020", "text": "The keyboard arrived on Tuesday.", "annotator": "ann_2", "label": "neutral"}
+{"item_id": "item_020", "text": "The keyboard arrived on Tuesday.", "annotator": "ann_3", "label": "neutral"}
+{"item_id": "item_021", "text": "The blender exceeded my expectations.", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_021", "text": "The blender exceeded my expectations.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_021", "text": "The blender exceeded my expectations.", "annotator": "ann_3", "label": "neutral"}
+{"item_id": "item_022", "text": "Absolutely happy with the router. Highly recommended!", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_022", "text": "Absolutely happy with the router. Highly recommended!", "annotator": "ann_2", "label": "positive"}
+{"item_id": "item_022", "text": "Absolutely happy with the router. Highly recommended!", "annotator": "ann_3", "label": "positive"}
+{"item_id": "item_023", "text": "Very disappointed with this keyboard, do not buy.", "annotator": "ann_1", "label": "negative"}
+{"item_id": "item_023", "text": "Very disappointed with this keyboard, do not buy.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_023", "text": "Very disappointed with this keyboard, do not buy.", "annotator": "ann_3", "label": "negative"}
+{"item_id": "item_024", "text": "The camera exceeded my expectations.", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_024", "text": "The camera exceeded my expectations.", "annotator": "ann_2", "label": "positive"}
+{"item_id": "item_024", "text": "The camera exceeded my expectations.", "annotator": "ann_3", "label": "neutral"}
+{"item_id": "item_025", "text": "Very disappointed with this phone, do not buy.", "annotator": "ann_1", "label": "negative"}
+{"item_id": "item_025", "text": "Very disappointed with this phone, do not buy.", "annotator": "ann_2", "label": "neutral"}
+{"item_id": "item_025", "text": "Very disappointed with this phone, do not buy.", "annotator": "ann_3", "label": "neutral"}
+{"item_id": "item_026", "text": "Very disappointed with this camera, do not buy.", "annotator": "ann_1", "label": "negative"}
+{"item_id": "item_026", "text": "Very disappointed with this camera, do not buy.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_026", "text": "Very disappointed with this camera, do not buy.", "annotator": "ann_3", "label": "negative"}
+{"item_id": "item_027", "text": "The laptop comes with a manual and a charger.", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_027", "text": "The laptop comes with a manual and a charger.", "annotator": "ann_2", "label": "neutral"}
+{"item_id": "item_027", "text": "The laptop comes with a manual and a charger.", "annotator": "ann_3", "label": "positive"}
+{"item_id": "item_028", "text": "Absolutely happy with the keyboard. Highly recommended!", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_028", "text": "Absolutely happy with the keyboard. Highly recommended!", "annotator": "ann_2", "label": "positive"}
+{"item_id": "item_028", "text": "Absolutely happy with the keyboard. Highly recommended!", "annotator": "ann_3", "label": "negative"}
+{"item_id": "item_029", "text": "I bought the keyboard last week, it is black.", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_029", "text": "I bought the keyboard last week, it is black.", "annotator": "ann_2", "label": "neutral"}
+{"item_id": "item_029", "text": "I bought the keyboard last week, it is black.", "annotator": "ann_3", "label": "neutral"}
+{"item_id": "item_030", "text": "I love this camera, it works perfectly.", "annotator": "ann_1", "label": "postive"}
+{"item_id": "item_030", "text": "I love this camera, it works perfectly.", "annotator": "ann_2", "label": "positive"}
+{"item_id": "item_030", "text": "I love this camera, it works perfectly.", "annotator": "ann_3", "label": "neutral"}
+{"item_id": "item_031", "text": "The blender arrived on Tuesday.", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_031", "text": "The blender arrived on Tuesday.", "annotator": "ann_2", "label": "neutral"}
+{"item_id": "item_031", "text": "The blender arrived on Tuesday.", "annotator": "ann_3", "label": "negative"}
+{"item_id": "item_032", "text": "The backpack comes with a manual and a charger.", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_032", "text": "The backpack comes with a manual and a charger.", "annotator": "ann_2", "label": "neutral"}
+{"item_id": "item_032", "text": "The backpack comes with a manual and a charger.", "annotator": "ann_3", "label": "neutral"}
+{"item_id": "item_033", "text": "The keyboard exceeded my expectations.", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_033", "text": "The keyboard exceeded my expectations.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_033", "text": "The keyboard exceeded my expectations.", "annotator": "ann_3", "label": "positive"}
+{"item_id": "item_034", "text": "Absolutely happy with the phone. Highly recommended!", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_034", "text": "Absolutely happy with the phone. Highly recommended!", "annotator": "ann_2", "label": "positive"}
+{"item_id": "item_034", "text": "Absolutely happy with the phone. Highly recommended!", "annotator": "ann_3", "label": "positive"}
+{"item_id": "item_035", "text": "The router comes with a manual and a charger.", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_035", "text": "The router comes with a manual and a charger.", "annotator": "ann_3", "label": "neutral"}
+{"item_id": "item_036", "text": "I bought the router last week, it is black.", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_036", "text": "I bought the router last week, it is black.", "annotator": "ann_2", "label": "neutral"}
+{"item_id": "item_036", "text": "I bought the router last week, it is black.", "annotator": "ann_3", "label": "positive"}
+{"item_id": "item_037", "text": "Absolutely happy with the laptop. Highly recommended!", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_037", "text": "Absolutely happy with the laptop. Highly recommended!", "annotator": "ann_2", "label": "Positive "}
+{"item_id": "item_038", "text": "I bought the headphones last week, it is black.", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_038", "text": "I bought the headphones last week, it is black.", "annotator": "ann_2", "label": "neutral"}
+{"item_id": "item_038", "text": "I bought the headphones last week, it is black.", "annotator": "ann_3", "label": "neutral"}
+{"item_id": "item_039", "text": "The camera stopped working and support ignored me.", "annotator": "ann_1", "label": "negative"}
+{"item_id": "item_039", "text": "The camera stopped working and support ignored me.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_039", "text": "The camera stopped working and support ignored me.", "annotator": "ann_3", "label": "negative"}
+{"item_id": "item_040", "text": "I love this keyboard, it works perfectly.", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_040", "text": "I love this keyboard, it works perfectly.", "annotator": "ann_2", "label": "positive"}
+{"item_id": "item_040", "text": "I love this keyboard, it works perfectly.", "annotator": "ann_3", "label": "positive"}
+{"item_id": "item_041", "text": "The phone broke after two days. Terrible.", "annotator": "ann_1", "label": "negative"}
+{"item_id": "item_041", "text": "The phone broke after two days. Terrible.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_041", "text": "The phone broke after two days. Terrible.", "annotator": "ann_3", "label": "negative"}
+{"item_id": "item_042", "text": "The router stopped working and support ignored me.", "annotator": "ann_1", "label": "negative"}
+{"item_id": "item_042", "text": "The router stopped working and support ignored me.", "annotator": "ann_2", "label": "neutral"}
+{"item_id": "item_042", "text": "The router stopped working and support ignored me.", "annotator": "ann_3", "label": "positive"}
+{"item_id": "item_043", "text": "I bought the backpack last week, it is black.", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_043", "text": "I bought the backpack last week, it is black.", "annotator": "ann_2", "label": "neutral"}
+{"item_id": "item_043", "text": "I bought the backpack last week, it is black.", "annotator": "ann_3", "label": "neutral"}
+{"item_id": "item_044", "text": "The phone exceeded my expectations.", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_044", "text": "The phone exceeded my expectations.", "annotator": "ann_2", "label": "positive"}
+{"item_id": "item_045", "text": "Absolutely happy with the headphones. Highly recommended!", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_045", "text": "Absolutely happy with the headphones. Highly recommended!", "annotator": "ann_2", "label": "positive"}
+{"item_id": "item_045", "text": "Absolutely happy with the headphones. Highly recommended!", "annotator": "ann_3", "label": "positive"}
+{"item_id": "item_046", "text": "The laptop arrived on Tuesday.", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_046", "text": "The laptop arrived on Tuesday.", "annotator": "ann_2", "label": "neutral"}
+{"item_id": "item_046", "text": "The laptop arrived on Tuesday.", "annotator": "ann_3", "label": "neutral"}
+{"item_id": "item_047", "text": "The camera comes with a manual and a charger.", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_047", "text": "The camera comes with a manual and a charger.", "annotator": "ann_2", "label": "neutral"}
+{"item_id": "item_047", "text": "The camera comes with a manual and a charger.", "annotator": "ann_3", "label": "positive"}
+{"item_id": "item_048", "text": "I bought the camera last week, it is black.", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_048", "text": "I bought the camera last week, it is black.", "annotator": "ann_2", "label": "neutral"}
+{"item_id": "item_048", "text": "I bought the camera last week, it is black.", "annotator": "ann_3", "label": "neutral"}
+{"item_id": "item_049", "text": "Awful quality, the phone feels cheap.", "annotator": "ann_1", "label": "negative"}
+{"item_id": "item_049", "text": "Awful quality, the phone feels cheap.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_049", "text": "Awful quality, the phone feels cheap.", "annotator": "ann_3", "label": "negative"}
+{"item_id": "item_050", "text": "Great value, the blender is excellent.", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_050", "text": "Great value, the blender is excellent.", "annotator": "ann_2", "label": "positive"}
+{"item_id": "item_050", "text": "Great value, the blender is excellent.", "annotator": "ann_3", "label": "positive"}
+{"item_id": "item_051", "text": "I love this router, it works perfectly.", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_051", "text": "I love this router, it works perfectly.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_051", "text": "I love this router, it works perfectly.", "annotator": "ann_3", "label": "neutral"}
+{"item_id": "item_052", "text": "Great value, the router is excellent.", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_052", "text": "Great value, the router is excellent.", "annotator": "ann_2", "label": "positive"}
+{"item_id": "item_052", "text": "Great value, the router is excellent.", "annotator": "ann_3", "label": "positive"}
+{"item_id": "item_053", "text": "The blender stopped working and support ignored me.", "annotator": "ann_1", "label": "negative"}
+{"item_id": "item_053", "text": "The blender stopped working and support ignored me.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_053", "text": "The blender stopped working and support ignored me.", "annotator": "ann_3", "label": "neutral"}
+{"item_id": "item_054", "text": "I bought the phone last week, it is black.", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_054", "text": "I bought the phone last week, it is black.", "annotator": "ann_2", "label": "neutral"}
+{"item_id": "item_054", "text": "I bought the phone last week, it is black.", "annotator": "ann_3", "label": "neutral"}
+{"item_id": "item_055", "text": "The router broke after two days. Terrible.", "annotator": "ann_1", "label": "negative"}
+{"item_id": "item_055", "text": "The router broke after two days. Terrible.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_055", "text": "The router broke after two days. Terrible.", "annotator": "ann_3", "label": "negative"}
+{"item_id": "item_056", "text": "Very disappointed with this blender, do not buy.", "annotator": "ann_1", "label": "negative"}
+{"item_id": "item_056", "text": "Very disappointed with this blender, do not buy.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_056", "text": "Very disappointed with this blender, do not buy.", "annotator": "ann_3", "label": "negative"}
+{"item_id": "item_057", "text": "The keyboard stopped working and support ignored me.", "annotator": "ann_1", "label": "negative"}
+{"item_id": "item_057", "text": "The keyboard stopped working and support ignored me.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_057", "text": "The keyboard stopped working and support ignored me.", "annotator": "ann_3", "label": "negative"}
+{"item_id": "item_058", "text": "Very disappointed with this headphones, do not buy.", "annotator": "ann_1", "label": "negative"}
+{"item_id": "item_058", "text": "Very disappointed with this headphones, do not buy.", "annotator": "ann_2", "label": "neutral"}
+{"item_id": "item_058", "text": "Very disappointed with this headphones, do not buy.", "annotator": "ann_3", "label": "negative"}
+{"item_id": "item_059", "text": "The phone arrived on Tuesday.", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_059", "text": "The phone arrived on Tuesday.", "annotator": "ann_2", "label": "positive"}
+{"item_id": "item_059", "text": "The phone arrived on Tuesday.", "annotator": "ann_3", "label": "positive"}
+{"item_id": "item_060", "text": "The headphones broke after two days. Terrible.", "annotator": "ann_1", "label": "negative"}
+{"item_id": "item_060", "text": "The headphones broke after two days. Terrible.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_060", "text": "The headphones broke after two days. Terrible.", "annotator": "ann_3", "label": "positive"}
+{"item_id": "item_061", "text": "The keyboard arrived on Tuesday.", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_061", "text": "The keyboard arrived on Tuesday.", "annotator": "ann_2", "label": "neutral"}
+{"item_id": "item_061", "text": "The keyboard arrived on Tuesday.", "annotator": "ann_3", "label": "neutral"}
+{"item_id": "item_062", "text": "The blender exceeded my expectations.", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_062", "text": "The blender exceeded my expectations.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_062", "text": "The blender exceeded my expectations.", "annotator": "ann_3", "label": "neutral"}
+{"item_id": "item_063", "text": "Absolutely happy with the router. Highly recommended!", "annotator": "ann_1", "label": "positive"}
+{"item_id": "item_063", "text": "Absolutely happy with the router. Highly recommended!", "annotator": "ann_2", "label": "positive"}
+{"item_id": "item_063", "text": "Absolutely happy with the router. Highly recommended!", "annotator": "ann_3", "label": "positive"}
+{"item_id": "item_064", "text": "Very disappointed with this keyboard, do not buy.", "annotator": "ann_1", "label": "negative"}
+{"item_id": "item_064", "text": "Very disappointed with this keyboard, do not buy.", "annotator": "ann_2", "label": "negative"}
+{"item_id": "item_064", "text": "Very disappointed with this keyboard, do not buy.", "annotator": "ann_3", "label": "negative"}
+{"item_id": "item_065", "text": "", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_065", "text": "", "annotator": "ann_2", "label": "neutral"}
+{"item_id": "item_066", "text": "   ", "annotator": "ann_1", "label": "neutral"}
+{"item_id": "item_066", "text": "   ", "annotator": "ann_2", "label": "neutral"}
