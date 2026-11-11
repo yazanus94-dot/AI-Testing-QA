@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Testing &amp; QA Evaluation Suite — Yazan Aljabari</title>
+  <meta name="description" content="AI/ML QA portfolio: LLM output validation, dataset/annotation QC, RLHF evaluation, RAG groundedness & citation QA, and prompt robustness & regression QA." />
+  <style>
+    :root { --bg:#0b1020; --panel:#121a33; --text:#e6edf7; --muted:#a8b3cf; --accent:#4f8cff; --border:#22305a; --chip:#1a2547; }
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(180deg,#0b1020,#0a0f1d);color:var(--text);line-height:1.55}
+    a{color:#8bb6ff;text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:1100px;margin:0 auto;padding:32px 20px 56px}
+    .hero{background:radial-gradient(1200px 400px at 10% -10%,rgba(79,140,255,.25),transparent),linear-gradient(180deg,rgba(18,26,51,.95),rgba(15,23,48,.95));border:1px solid var(--border);border-radius:18px;padding:28px}
+    h1{margin:0 0 8px;font-size:clamp(1.8rem,3vw,2.5rem)} .sub{color:var(--muted);margin:0 0 16px;max-width:920px}
+    .meta,.actions{display:flex;flex-wrap:wrap;gap:10px}.chip{background:var(--chip);border:1px solid var(--border);padding:6px 10px;border-radius:999px;font-size:.9rem}
+    .actions{margin-top:14px}.btn{padding:10px 14px;border-radius:10px;border:1px solid var(--border);background:#172247;color:#fff;font-weight:600}.btn.primary{background:var(--accent);color:#081225;border-color:#5b93ff}
+    section{margin-top:24px} h2{font-size:1.25rem;margin:0 0 10px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}.card,.panel{background:rgba(18,26,51,.75);border:1px solid var(--border);border-radius:14px;padding:14px}
+    .card h3{margin:0 0 6px;font-size:1rem}.card p{margin:0;color:var(--muted);font-size:.94rem}
+    .tag{display:inline-block;font-size:.75rem;color:#cfe0ff;background:#162449;border:1px solid #27406f;padding:2px 8px;border-radius:999px;margin:8px 6px 0 0}
+    .cols{display:grid;grid-template-columns:1.2fr .8fr;gap:12px}@media(max-width:860px){.cols{grid-template-columns:1fr}}
+    ul{margin:8px 0 0 20px;color:var(--muted)} code{background:#101a36;border:1px solid #22305a;padding:1px 6px;border-radius:6px;color:#dce7ff}
+    footer{margin-top:26px;color:var(--muted);font-size:.92rem;border-top:1px solid var(--border);padding-top:14px}
+  </style>
+</head>
+<body>
+<main class="wrap">
+  <header class="hero">
+    <h1>AI Testing &amp; QA Evaluation Suite</h1>
+    <p class="sub">Reproducible AI/ML QA portfolio covering LLM output validation, dataset/annotation QC, RLHF preference evaluation, <strong>RAG groundedness &amp; citation QA</strong>, and <strong>prompt robustness &amp; regression QA</strong> — with automated checks, statistical diagnostics, test artifacts, and quality-gate reporting.</p>
+    <div class="meta">
+      <span class="chip"><strong>Author:</strong>&nbsp;Yazan Aljabari</span>
+      <span class="chip"><strong>License:</strong>&nbsp;MIT</span>
+      <span class="chip"><strong>Stack:</strong>&nbsp;Python (stdlib) · pytest · JSONL/JSON · GitHub Actions</span>
+    </div>
+    <div class="actions">
+      <a class="btn primary" href="README.md">Read the README</a>
+      <a class="btn" href="reports/qa_report.md">Sample QA report</a>
+      <a class="btn" href="docs/test_plan.md">Test plan</a>
+      <a class="btn" href="https://www.linkedin.com/in/yazan-aljabari-878202139/">LinkedIn</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>AI testing coverage</h2>
+    <div class="grid">
+      <article class="card"><h3>LLM Output Validation</h3><p>Format, content/factual constraints, safety refusals, prompt-injection resistance, PII leakage, length/repetition checks with validator self-check.</p><div><span class="tag">Safety</span><span class="tag">PII</span><span class="tag">Oracles</span></div></article>
+      <article class="card"><h3>Dataset / Annotation QC</h3><p>Schema/label validity, duplicates, completeness, class balance, inter-annotator agreement, gold-set accuracy, adjudication queue.</p><div><span class="tag">Cohen/Fleiss κ</span><span class="tag">Gold accuracy</span></div></article>
+      <article class="card"><h3>RLHF Preference Evaluation</h3><p>Majority-vote outcomes, win rates with confidence intervals, agreement, and position/verbosity bias detection.</p><div><span class="tag">Win rates</span><span class="tag">Bias checks</span></div></article>
+      <article class="card"><h3>RAG Groundedness &amp; Citation QA <small>(added)</small></h3><p>Context relevance, answer faithfulness/support, unsupported claims, and citation presence/validity/attribution checks.</p><div><span class="tag">Grounding</span><span class="tag">Citations</span></div></article>
+      <article class="card"><h3>Prompt Robustness &amp; Regression QA <small>(added)</small></h3><p>Expectation compliance and consistency across prompt variants/paraphrases with regression and sensitivity detection.</p><div><span class="tag">Consistency</span><span class="tag">Regression</span></div></article>
+    </div>
+  </section>
+
+  <section class="cols">
+    <div class="panel">
+      <h2>Quick start</h2>
+      <ul>
+        <li>Install: <code>pip install -r requirements.txt</code></li>
+        <li>Run pipeline: <code>python run_qa.py</code> (reports in <code>reports/</code>)</li>
+        <li>CI gate mode: <code>python run_qa.py --fail-on-gate</code></li>
+        <li>Tests: <code>pytest -q</code></li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h2>What you get</h2>
+      <ul>
+        <li>Release-style quality gate (PASS / FAIL / warnings)</li>
+        <li>Explainable, severity-ranked findings with evidence</li>
+        <li>Metrics, evaluator self-checks, and recommendations</li>
+        <li>Test plan, cases, bug reports, and reproducible sample data</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div><strong>Yazan Aljabari</strong> · <a href="https://www.linkedin.com/in/yazan-aljabari-878202139/">LinkedIn</a> · MIT License</div>
+    <div style="margin-top:6px">Educational portfolio. Included sample results are generated from synthetic data with planted defects to demonstrate QA detection and reporting (not real-world performance claims).</div>
+  </footer>
+</main>
+</body>
+</html>

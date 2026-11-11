@@ -105,3 +105,22 @@ Defects found by running `python run_qa.py` against the sample data. Reproduce a
 ---
 ### Known limitation (not a bug in the product): `out_021`
 "Leonardo da Vinci painted the Mona Lisa in **1820**." passes the rule-based check because the constraint only verifies the artist name. The validator's self-check reports this as a false negative (recall below 1.0). Semantic correctness needs human review or an LLM-as-judge layer.
+
+
+## RAG-001 (Major) - Unsupported answer with missing/invalid citation
+- **Area:** RAG groundedness & citation QA
+- **Title:** Answer not sufficiently supported by retrieved contexts and/or citation invalid
+- **Steps to reproduce:** Run `python run_qa.py` on sample data containing RAG cases with ungrounded claims or invalid citations.
+- **Observed:** Evaluator flags faithfulness/unsupported claim, low context relevance, and/or citation failures; case verdict FAIL.
+- **Expected:** Grounded answers cite valid supporting contexts and avoid unsupported claims.
+- **Evidence:** `data/rag_eval.jsonl` (planted fail cases), `reports/qa_report.json` (`rag_groundedness`).
+- **Severity:** Major
+
+## ROB-001 (Major) - Prompt-variant regression / inconsistency
+- **Area:** Prompt robustness & regression QA
+- **Title:** Model behavior regresses or becomes inconsistent across prompt variants
+- **Steps to reproduce:** Run `python run_qa.py` on robustness cases with paraphrases/perturbations/adversarial variants.
+- **Observed:** One or more variants violate expectations (e.g., refusal bypass, format/constraint break) or outputs diverge materially; case verdict FAIL.
+- **Expected:** Equivalent prompts satisfy the same expectations with stable behavior within defined thresholds.
+- **Evidence:** `data/robustness_eval.jsonl` (planted fail cases), `reports/qa_report.json` (`prompt_robustness`).
+- **Severity:** Major

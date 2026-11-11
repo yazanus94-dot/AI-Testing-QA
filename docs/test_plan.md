@@ -71,3 +71,22 @@ Python 3.9+, standard library only (no external dependencies for runtime), pytes
 2. Defects are logged using `docs/bug_reports.md` format.
 3. Fixed data / outputs are re-run (regression) until the gate is PASS.
 4. Edge cases found are added to `docs/test_cases.csv` and the unit tests.
+
+
+## 9. Added AI testing topics (extension)
+
+### 9.1 RAG groundedness & citation QA
+| In scope | Checks |
+|---|---|
+| Retrieval-grounded QA cases | Context relevance (question-context overlap), answer faithfulness/support, unsupported claim detection, citation presence/validity/attribution |
+| Data | `data/rag_eval.jsonl` (question, contexts, answer, citations, constraints, optional expected verdict) |
+| Outputs | Case-level relevance/faithfulness metrics, failures by check, evaluator self-check, issue findings and recommendations |
+
+### 9.2 Prompt robustness & regression QA
+| In scope | Checks |
+|---|---|
+| Prompt variants/paraphrases/perturbations | Expectation compliance per variant (content/refusal/exact/JSON/length), cross-variant consistency (normalized answer agreement), regression and sensitivity detection |
+| Data | `data/robustness_eval.jsonl` (base prompt, variants, expectation, expected consistency/verdict) |
+| Outputs | Variant pass/fail, consistency metrics, regression/inconsistency findings, evaluator self-check, recommendations |
+
+These topics are integrated into `run_qa.py`, report generation, quality gate evaluation, automated tests, and CI.
