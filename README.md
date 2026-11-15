@@ -3,6 +3,9 @@
 ## Project title
 **AI Testing & QA Evaluation Suite** — LLM Output Validation, Dataset/Annotation QC, RLHF Evaluation, RAG Groundedness & Citation QA, and Prompt Robustness & Regression QA
 
+## Project title
+**AI Testing & QA Evaluation Suite** — LLM Output Validation, Dataset/Annotation QC, RLHF Evaluation, RAG Groundedness & Citation QA, and Prompt Robustness & Regression QA
+
 A comprehensive, reproducible **AI/ML quality assurance portfolio project** that plans, executes, and documents quality checks across LLM output validation, annotation/dataset quality control, RLHF preference-data evaluation, **RAG groundedness & citation QA**, and **prompt robustness & regression QA**. The suite runs with the Python standard library and produces release-style quality-gate reports with evidence-backed findings.
 
 **Author:** [Yazan Aljabari](https://www.linkedin.com/in/yazan-aljabari-878202139/)  
