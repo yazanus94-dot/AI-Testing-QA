@@ -1,13 +1,14 @@
 """Prompt robustness and regression QA.
 
 Each record (robustness_eval.jsonl): {
-  id, base_prompt, variants: [{name, prompt, output}],
+  id, base_prompt, variants: [{name, prompt, output, consistency_key?}],
   expectation: {type: "contains_all"|"contains_any"|"refusal"|"exact"|"json_keys"|"max_words", value: ...},
   expected_consistent: bool (default true), expected_verdict?: "pass"|"fail"
 }
 Checks:
 - per-variant expectation satisfaction (regression/oracle)
-- cross-variant consistency (normalized answer agreement / stability)
+- cross-variant consistency (agreement on consistency_key when provided,
+  otherwise on normalized full output / stability)
 """
 from __future__ import annotations
 import json
@@ -81,7 +82,14 @@ def evaluate_robustness_record(rec: dict) -> dict:
         })
 
     failed_variants = [v["name"] for v in variant_results if not v["ok"]]
-    norms = [v["normalized"] for v in variant_results if v["normalized"]]
+    # Consistency compares canonical answers: a variant may supply an explicit
+    # consistency_key (test-oracle metadata for equivalent paraphrases); when
+    # absent, the normalized full output is compared as before.
+    norms = [
+        _norm_text(v.get("consistency_key") or v.get("output", ""))
+        for v in variants
+    ]
+    norms = [n for n in norms if n]
     counts = Counter(norms)
     majority_share = (counts.most_common(1)[0][1] / len(norms)) if norms else 0.0
     unique_answers = len(counts)

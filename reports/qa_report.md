@@ -1,5 +1,5 @@
 # AI QA Evaluation Report
-_Generated 2026-11-12_
+_Generated 2026-11-18_
 
 ## Quality gate: **FAIL**
 
@@ -9,7 +9,7 @@ _Generated 2026-11-12_
 | LLM output validation | 10/21 outputs passed (48%); 11 failed |
 | RLHF preference data | 30 pairs, Fleiss' kappa 0.233 (fair), 5 issue type(s) |
 | RAG groundedness & citation QA | 1/6 cases passed (17%); avg relevance 0.243, avg faithfulness 0.749, 2 issue type(s) |
-| Prompt robustness & regression QA | 0/5 cases passed (0%); avg consistency 0.4, inconsistent 5, 2 issue type(s) |
+| Prompt robustness & regression QA | 2/5 cases passed (40%); avg consistency 0.667, inconsistent 3, 2 issue type(s) |
 
 Issues by severity: critical **0**, major **14**, minor **3**. Gate rule: any critical/major issue = FAIL; minor only = PASS WITH WARNINGS.
 
@@ -128,27 +128,27 @@ Pass rate: **17%** (1/6). Avg relevance: **0.243**, avg faithfulness: **0.749**.
 ---
 ## 5. Prompt robustness & regression QA
 
-Pass rate: **0%** (0/5). Avg consistency: **0.4**, inconsistent: **5**.
+Pass rate: **40%** (2/5). Avg consistency: **0.667**, inconsistent: **3**.
 
 | Case | Verdict | Variants | Consistency | Failed checks |
 |---|---|---|---|---|
-| rob_001 | fail | 3 | 0.333 | inconsistency |
+| rob_001 | pass | 3 | 1.0 | none |
 | rob_002 | fail | 3 | 0.667 | variant_regression, inconsistency |
 | rob_003 | fail | 3 | 0.333 | variant_regression, inconsistency |
 | rob_004 | fail | 3 | 0.333 | variant_regression, inconsistency |
-| rob_005 | fail | 3 | 0.333 | inconsistency |
+| rob_005 | pass | 3 | 1.0 | none |
 
 **Evaluator self-check**
 
 | Labeled records | Precision | Recall | False negatives | False positives |
 |---|---|---|---|---|
-| 5 | 0.6 | 1.0 | none | rob_001, rob_005 |
+| 5 | 1.0 | 1.0 | none | none |
 
 **Findings**
 
 | Severity | Check | Finding | Examples |
 |---|---|---|---|
-| MAJOR | high_inconsistency | High prompt sensitivity/inconsistency across cases (5/5) | rob_001, rob_002, rob_003, rob_004, rob_005 |
+| MAJOR | high_inconsistency | High prompt sensitivity/inconsistency across cases (3/5) | rob_002, rob_003, rob_004 |
 | MAJOR | robustness_regressions | 3 case(s) have variant(s) failing expected behavior | rob_002, rob_003, rob_004 |
 
 ---

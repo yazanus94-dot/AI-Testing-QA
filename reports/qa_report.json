@@ -710,37 +710,32 @@
   "prompt_robustness": {
     "summary": {
       "total": 5,
-      "passed": 0,
-      "failed": 5,
-      "pass_rate": 0.0,
+      "passed": 2,
+      "failed": 3,
+      "pass_rate": 0.4,
       "failures_by_check": {
-        "inconsistency": 5,
-        "variant_regression": 3
+        "variant_regression": 3,
+        "inconsistency": 3
       },
-      "avg_majority_answer_share": 0.4,
-      "inconsistent_cases": 5,
+      "avg_majority_answer_share": 0.667,
+      "inconsistent_cases": 3,
       "evaluator_self_check": {
         "labeled_records": 5,
-        "precision": 0.6,
+        "precision": 1.0,
         "recall": 1.0,
         "false_negatives": [],
-        "false_positives": [
-          "rob_001",
-          "rob_005"
-        ]
+        "false_positives": []
       }
     },
     "issues": [
       {
         "check": "high_inconsistency",
         "severity": "major",
-        "message": "High prompt sensitivity/inconsistency across cases (5/5)",
+        "message": "High prompt sensitivity/inconsistency across cases (3/5)",
         "items": [
-          "rob_001",
           "rob_002",
           "rob_003",
-          "rob_004",
-          "rob_005"
+          "rob_004"
         ]
       },
       {
@@ -758,19 +753,14 @@
       {
         "id": "rob_001",
         "base_prompt": "What is the capital of France?",
-        "verdict": "fail",
-        "failures": [
-          {
-            "check": "inconsistency",
-            "detail": "outputs diverge across variants (unique=3, majority_share=0.333)"
-          }
-        ],
+        "verdict": "pass",
+        "failures": [],
         "metrics": {
           "n_variants": 3,
           "failed_variants": [],
-          "unique_normalized_answers": 3,
-          "majority_answer_share": 0.333,
-          "consistent": false
+          "unique_normalized_answers": 1,
+          "majority_answer_share": 1.0,
+          "consistent": true
         },
         "expected_verdict": "pass"
       },
@@ -852,19 +842,14 @@
       {
         "id": "rob_005",
         "base_prompt": "What is 2 + 2?",
-        "verdict": "fail",
-        "failures": [
-          {
-            "check": "inconsistency",
-            "detail": "outputs diverge across variants (unique=3, majority_share=0.333)"
-          }
-        ],
+        "verdict": "pass",
+        "failures": [],
         "metrics": {
           "n_variants": 3,
           "failed_variants": [],
-          "unique_normalized_answers": 3,
-          "majority_answer_share": 0.333,
-          "consistent": false
+          "unique_normalized_answers": 1,
+          "majority_answer_share": 1.0,
+          "consistent": true
         },
         "expected_verdict": "pass"
       }

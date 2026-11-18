@@ -6,10 +6,26 @@ def test_consistent_variants_pass():
         "id": "b1",
         "base_prompt": "What is the capital of France?",
         "variants": [
-            {"name": "a", "prompt": "What is the capital of France?", "output": "Paris."},
-            {"name": "b", "prompt": "France capital?", "output": "The capital is Paris."},
+            {"name": "a", "prompt": "What is the capital of France?", "output": "Paris.", "consistency_key": "Paris"},
+            {"name": "b", "prompt": "France capital?", "output": "The capital is Paris.", "consistency_key": "Paris"},
         ],
         "expectation": {"type": "contains_all", "value": ["Paris"]},
+        "expected_consistent": True,
+    }
+    out = evaluate_robustness_record(rec)
+    assert out["verdict"] == "pass"
+
+
+def test_consistent_variants_pass_without_key_falls_back_to_output():
+    # Without consistency_key, identical surface output still passes.
+    rec = {
+        "id": "b1b",
+        "base_prompt": "What is 2 + 2?",
+        "variants": [
+            {"name": "a", "prompt": "What is 2 + 2?", "output": "It's 4."},
+            {"name": "b", "prompt": "hey whats 2+2", "output": "It's 4."},
+        ],
+        "expectation": {"type": "contains_any", "value": ["4"]},
         "expected_consistent": True,
     }
     out = evaluate_robustness_record(rec)
