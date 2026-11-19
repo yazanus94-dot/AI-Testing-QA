@@ -152,8 +152,8 @@ def run_robustness_eval(records: list[dict]) -> dict:
         "inconsistent_cases": len(inconsistent),
         "evaluator_self_check": {
             "labeled_records": len(labeled),
-            "precision": precision and round(precision, 3),
-            "recall": recall and round(recall, 3),
+            "precision": round(precision, 3) if precision is not None else None,
+            "recall": round(recall, 3) if recall is not None else None,
             "false_negatives": fn_ids,
             "false_positives": fp_ids,
         }
